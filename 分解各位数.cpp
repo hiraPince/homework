@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int a=113,b;
+	int a,b;
 	int sum=0,squ=0;
+	printf("please input a number");
+	scanf("%d",&a);
 	while(a>0)
 	{
 		b=a%10;
