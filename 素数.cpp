@@ -2,7 +2,7 @@
 int main()
 {
 	int m,n;
-	printf("请输入n");
+	printf("please input a number");
 	scanf("%d",&n);
 	for(m=2;m<n;m++)
 	{
@@ -10,8 +10,8 @@ int main()
 		break;
 	}
 	if(m==n)
-	printf("%d是素数",n);
+	printf("n is Prime",n);
 	else
-	printf("%d不是素数",n);	
+	printf("n is not Prime",n);	
 	return 0;
 }
