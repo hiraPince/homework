@@ -2,8 +2,8 @@
 int main(void)
 {
 	double x,y,m,n,j,k;
-	x=3.0;
-	y=2.0;
+	printf("Please input two numbers");
+	scanf("%d %d",&x,&y);
 	m=x+y;
 	n=x*y;
 	j=x-y;
