@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	double a,b=600000,c;
+	double a,b=700000,c;
 	for(a=5000;a<b;c++)
 	{
 		a=5000+a;
-		a=a*1.0032;
+		a=a*1.0048;
 	}
-	printf("ÔÂ·ÖÊý%lf",c);
+	printf("the year is %d",c);
 	return 0;
 }
