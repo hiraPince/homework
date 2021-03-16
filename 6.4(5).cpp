@@ -5,26 +5,26 @@ struct  Employee
 	char* name;
 	char* sex;
 	char* ID;
-	int salary;
+	char salary;
 	char* adress;
 };
 int main()
 {
 	struct Employee employee=
 	{
-		123456789,
+		145615415,
 		"zed",
-		"ÄĞ",
-		"123456789123456789",
-		5000,
-		"ËÄ´¨´óÑ§½­°²Ğ£Çø",
+		"ç”·",
+		"123456789987654321",
+		"5000",
+		"å››å·å¤§å­¦æ±Ÿå®‰æ ¡åŒº",
 	}; 
-	printf("Ñ§ºÅ£º%d\n",employee.num);
-	printf("ĞÕÃû:%s\n",employee.name);
-	printf("ĞÔ±ğ:%s\n",employee.sex);
-	printf("Éí·İÖ¤ºÅ:%s\n",employee.ID);
-	printf("¹¤×Ê:%d\n",employee.salary);
-	printf("µØÖ·:%s\n",employee.adress);
+	printf("å­¦å·ï¼š%d\n",employee.num);
+	printf("å§“å:%s\n",employee.name);
+	printf("æ€§åˆ«:%s\n",employee.sex);
+	printf("èº«ä»½è¯å·:%s\n",employee.ID);
+	printf("å·¥èµ„:%s\n",employee.salary);
+	printf("åœ°å€:%s\n",employee.adress);
 	return 0;
 	
 }
