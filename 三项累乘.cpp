@@ -7,7 +7,7 @@ int main()
 	{
 		int m=0;
 		scanf("%d",&a);
-		if(a>3&&a<50)
+		if(a>3&&a<999)
 		{
 			for(b=2;b<=a;b++) 
 			{	
